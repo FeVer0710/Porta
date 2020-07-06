@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/5a48aa211a.js" crossorigin="anonymous"></script>
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <i class="fas fa-home mr-2"></i>
+                    <strong>Inicio</strong>
+                </a>
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <i class="fas fa-user mr-2"></i>
+                    <strong>Jaime Fernando Berrios Ortiz</strong>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="jumbotron bg-white text-center mb-0 mt-5">
+            <div class="container">
+                <h1 class="display-4">Nombre de la Unidad
+                </h1>
+            </div>
+        </section>
+
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="accordion" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="uno">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#accordion1" aria-expanded="true" aria-controls="accordion1">
+                                    <i class="fas fa-chevron-circle-right"></i> Fecha
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="accordion1" class="collapse show" aria-labelledby="uno"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus architecto odio ad facilis, vitae ullam, quaerat, ipsam id nesciunt cumque velit quos assumenda maxime cum porro at commodi eaque.
+                                    </div>
+                                    <div class="col-12 col-sm-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus architecto odio ad facilis, vitae ullam, quaerat, ipsam id nesciunt cumque velit quos assumenda maxime cum porro at commodi eaque.
+                                    </div>
+                                    <div class="col-12 col-sm-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus architecto odio ad facilis, vitae ullam, quaerat, ipsam id nesciunt cumque velit quos assumenda maxime cum porro at commodi eaque.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="dos">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#accordion2" aria-expanded="false" aria-controls="accordion2">
+                                    <i class="fas fa-chevron-circle-right"></i> Fecha
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="accordion2" class="collapse" aria-labelledby="dos"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Info
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="tres">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#accordion3" aria-expanded="false" aria-controls="accordion3">
+                                    <i class="fas fa-chevron-circle-right"></i> Fecha
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="accordion3" class="collapse" aria-labelledby="tres"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Info
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="cuatro">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#accordion4" aria-expanded="false" aria-controls="accordion4">
+                                    <i class="fas fa-chevron-circle-right"></i> PDF's
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="accordion4" class="collapse" aria-labelledby="cuatro"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <embed src="pdf/decalogo-y-glosario-seo.pdf#toolbar=0" type="application/pdf" width="100%" height="600px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="mb-1 text-center">
+                Ingeniería en Sistemas y Redes Informáticos
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
